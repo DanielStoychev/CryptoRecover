@@ -4,7 +4,7 @@ site_description: Documentation for BTCRecover
 site_author: Stephen Rothery
 repo_url: https://github.com/DanielStoychev/CryptoRecover
 edit_uri: ""
-copyright: 3rdIteration/btcrecover is licensed under the GNU General Public License v2.0 - 2021 Stephen Rothery
+copyright: DanielStoychev/CryptoRecover is licensed under the GNU General Public License v2.0 - Based on BTCRecover by Christopher Gurnee (2014-2017) and 3rdIteration team (2019-2021)
 
 theme:
     name: material
@@ -64,7 +64,7 @@ plugins:
     - autolinks
     - include-markdown
     - git-committers:
-        repository: 3rdIteration/btcrecover
+        repository: DanielStoychev/CryptoRecover
         branch: master
         token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
