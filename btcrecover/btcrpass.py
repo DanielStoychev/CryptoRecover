@@ -4538,6 +4538,47 @@ class WalletYoroi(object):
 
         return False, count
 
+
+def _bitcoin_addresses_to_hash160s(addresses):
+    """Bitcoin-specific address parser that doesn't get overridden by Ethereum implementations"""
+    from . import btcrseed
+    from lib.cashaddress import convert
+    from lib.bitcoinlib import encoding
+    from lib.bitcoinlib_mod import encoding as encoding_mod
+    import binascii
+    
+    hash160s = set()
+    for address in addresses:
+        if address[:1] == "r": # Convert XRP addresses to standard Bitcoin Legacy Addresses
+            from lib.base58_tools import base58_tools
+            address = base58_tools.b58encode(
+                base58_tools.b58decode(address, alphabet=base58_tools.XRP_ALPHABET)).decode()
+        try:
+            # Check if we are getting BCH Cashaddresses and if so, convert them to standard legacy addresses
+            if address[:12].lower() == "bitcoincash:":
+                address = convert.to_legacy_address(address)
+            else:
+                try:
+                    address = convert.to_legacy_address("bitcoincash:" + address)
+                except convert.InvalidAddress:
+                    pass
+            hash160 = binascii.unhexlify(encoding.addr_base58_to_pubkeyhash(address, True)) #assume we have a P2PKH (Legacy) or Segwit (P2SH) so try a Base58 conversion
+        except (encoding.EncodingError, AssertionError) as e:
+            try:
+                hash160 = binascii.unhexlify(encoding.grs_addr_base58_to_pubkeyhash(address, True)) #assume we have a P2PKH (Legacy) or Segwit (P2SH) so try a Base58 conversion
+            except Exception as e:
+                try:
+                    hash160 = binascii.unhexlify(encoding.addr_bech32_to_pubkeyhash(address, prefix=None,  include_witver=False, as_hex=True)) #Base58 conversion above will give a keyError if attempted with a Bech32 address for things like BTC
+                except Exception as e:
+                    # Try for some obscure altcoins which require modified versions of Bitcoinlib
+                    try:
+                        hash160 = binascii.unhexlify(encoding_mod.grs_addr_base58_to_pubkeyhash(address, True))
+                    except Exception as e:
+                        hash160 = binascii.unhexlify(encoding_mod.addr_bech32_to_pubkeyhash(address, prefix=None,  include_witver=False, as_hex=True)) #
+        hash160s.add(hash160)
+    return hash160s
+
+
 ############### Brainwallet ###############
 
 # @register_wallet_class - not a "registered" wallet since there are no wallet files nor extracts
@@ -4595,7 +4636,7 @@ class WalletBrainwallet(object):
         self.address_type_checks = []
 
         if addresses:
-            self.hash160s = btcrseed.WalletBase._addresses_to_hash160s(addresses)
+            self.hash160s = _bitcoin_addresses_to_hash160s(addresses)
             for address in addresses:
                 if address[0] == "3":
                     input_address_p2sh = True
@@ -4900,7 +4941,7 @@ class WalletRawPrivateKey(object):
                 self.hash160s = btcrseed.WalletEthereum._addresses_to_hash160s(addresses)
                 input_address_standard = True
             else:
-                self.hash160s = btcrseed.WalletBase._addresses_to_hash160s(addresses)
+                self.hash160s = _bitcoin_addresses_to_hash160s(addresses)
 
                 for address in addresses:
                     if address[0] == "3":
