@@ -16,7 +16,7 @@
 ### 📚 **Documentation Links Updated**
 - **Main Documentation**: Changed from btcrecover.readthedocs.io to GitHub repository docs
 - **Installation Guide**: Updated to point to GitHub docs
-- **Tutorial Links**: All now point to https://github.com/DanielStoychev/CryptoRecover/blob/main/docs/
+- **Tutorial Links**: All now point to https://github.com/DanielStoychev/CryptoRecover/blob/master/docs/
 - **Extract Scripts**: Updated to GitHub repository
 - **GPU Acceleration**: Updated to GitHub repository
 - **Address Database**: Updated to GitHub repository

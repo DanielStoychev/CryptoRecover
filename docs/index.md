@@ -20,7 +20,7 @@ Your best bet is to follow the [Installing BTCRecover guide](INSTALL.md), then r
 
 If you need help, [your best bet is to look at my BTCRecover playlist on YouTube](https://www.youtube.com/playlist?list=PL7rfJxwogDzmd1IanPrmlTg3ewAIq-BZJ) and ask a question in the comments section for any of video closest to your situation.
 
-If you have found a bug, please open an issue on Github here: [https://github.com/3rdIteration/btcrecover/issues](https://github.com/3rdIteration/btcrecover/issues)
+If you have found a bug, please open an issue on Github here: [https://github.com/DanielStoychev/CryptoRecover/issues](https://github.com/DanielStoychev/CryptoRecover/issues)
 
 ## Features ##
 * Seed/Passphrase Recovery when for: (Recovery without a known address requires an [Address Database](Creating_and_Using_AddressDB.md))

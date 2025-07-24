@@ -1,6 +1,6 @@
 # BTCRecover 2.0.0-Stoychev - Enhanced Cryptocurrency Recovery Tool
 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)] * "Offline" mode for nearly all supported wallets - use one of the [extract scripts (click for more information)](https://github.com/DanielStoychev/CryptoRecover/blob/main/docs/Extract_Scripts.md) to extract just enough information to attempt password recovery, without giving *btcrecover* or whoever runs it access to *any* of the addresses or private keys in your Bitcoin wallet.* "Offline" mode for nearly all supported wallets - use one of the [extract scripts (click for more information)](https://github.com/DanielStoychev/CryptoRecover/blob/main/docs/Extract_Scripts.md) to extract just enough information to attempt password recovery, without giving *btcrecover* or whoever runs it access to *any* of the addresses or private keys in your Bitcoin wallet.https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)]()
 [![Tests](https://img.shields.io/badge/tests-36%20passing-brightgreen.svg)]()
@@ -14,7 +14,7 @@ For seed based recovery, this is primarily useful in situations where you have l
 For wallet password or passphrase recovery, it is primarily useful if you have a reasonable idea about what your password might be.
 
 # Documentation:
-### Instructions for installation, usage & examples: [GitHub Documentation](https://github.com/DanielStoychev/CryptoRecover/blob/main/docs/)
+### Instructions for installation, usage & examples: [GitHub Documentation](https://github.com/DanielStoychev/CryptoRecover/blob/master/docs/)
 
 [(You can also view the documentation in your browser locally by following the instructions here.)](docs/local_mkdocs.md)
 
@@ -37,7 +37,7 @@ For help and support, please check the comprehensive documentation and examples 
 * **100% offline operation** - no network communication required
 
 ## Features ##
-* BIP39 Seed/Passphrase Recovery when for: (Recovery without a known address requires an [Address Database](https://github.com/DanielStoychev/CryptoRecover/blob/main/docs/Creating_and_Using_AddressDB.md))
+* BIP39 Seed/Passphrase Recovery when for: (Recovery without a known address requires an [Address Database](https://github.com/DanielStoychev/CryptoRecover/blob/master/docs/Creating_and_Using_AddressDB.md))
     * Avalanche
     * Bitcoin
     * Bitcoin Cash
@@ -73,7 +73,7 @@ For help and support, please check the comprehensive documentation and examples 
     * Litecoin
     * Ripple
     * Vertcoin
- * [Descrambling 12 word seeds](https://github.com/DanielStoychev/CryptoRecover/blob/main/docs/BIP39_descrambling_seedlists.md) (Using Tokenlist feature for BIP39 seeds via seedrecover.py)
+ * [Descrambling 12 word seeds](https://github.com/DanielStoychev/CryptoRecover/blob/master/docs/BIP39_descrambling_seedlists.md) (Using Tokenlist feature for BIP39 seeds via seedrecover.py)
  * Wallet File password recovery for a range of wallets
 
 * Seed Phrase (Mnemonic) Recovery for the following wallets
@@ -136,7 +136,7 @@ For help and support, please check the comprehensive documentation and examples 
  * Support for Unicode passwords and seeds
  * Multithreaded searches, with user-selectable thread count
  * Ability to spread search workload over multiple devices
- * [GPU acceleration](https://github.com/DanielStoychev/CryptoRecover/blob/main/docs/GPU_Acceleration.md) for Bitcoin Core Passwords, Blockchain.com (Main and Second Password), Electrum Passwords + BIP39 and Electrum Seeds
+ * [GPU acceleration](https://github.com/DanielStoychev/CryptoRecover/blob/master/docs/GPU_Acceleration.md) for Bitcoin Core Passwords, Blockchain.com (Main and Second Password), Electrum Passwords + BIP39 and Electrum Seeds
  * Wildcard expansion for passwords
  * Typo simulation for passwords and seeds
  * Progress bar and ETA display (at the command line)
@@ -146,19 +146,19 @@ For help and support, please check the comprehensive documentation and examples 
  * “Offline” mode for nearly all supported wallets - use one of the [extract scripts (click for more information)](docs/Extract_Scripts.md) to extract just enough information to attempt password recovery, without giving *btcrecover* or whoever runs it access to *any* of the addresses or private keys in your Bitcoin wallet.
 
 ## Setup and Usage Tutorials ##
-BTCRecover 2.0.0-Stoychev is a Python (3.9, 3.10, 3.11, 3.12) script so will run on Windows, Linux and Mac environments. [See the installation guide for more info](https://github.com/DanielStoychev/CryptoRecover/blob/main/docs/INSTALL.md)
+BTCRecover 2.0.0-Stoychev is a Python (3.9, 3.10, 3.11, 3.12) script so will run on Windows, Linux and Mac environments. [See the installation guide for more info](https://github.com/DanielStoychev/CryptoRecover/blob/master/docs/INSTALL.md)
 
-This repository includes comprehensive documentation with example commands and file templates in the [./docs/](https://github.com/DanielStoychev/CryptoRecover/tree/main/docs) folder.
+This repository includes comprehensive documentation with example commands and file templates in the [./docs/](https://github.com/DanielStoychev/CryptoRecover/tree/master/docs) folder.
 
 We recommend that you find a scenario that is most like your situation and follow the examples to ensure that you have the tool set up and running correctly. The documentation covers various recovery scenarios with detailed explanations.
 
-If you don't know an address in the wallet that you are searching for, you can create and use an [Address Database (click here for guide)](https://github.com/DanielStoychev/CryptoRecover/blob/main/docs/Creating_and_Using_AddressDB.md) _There is no real performance penalty for doing this, it just takes a bit more work to set up_.
+If you don't know an address in the wallet that you are searching for, you can create and use an [Address Database (click here for guide)](https://github.com/DanielStoychev/CryptoRecover/blob/master/docs/Creating_and_Using_AddressDB.md) _There is no real performance penalty for doing this, it just takes a bit more work to set up_.
 
 ## Quick Start ##
 
-To try recovering your password or a BIP39 passphrase, please start with the **[Password Recovery Quick Start](https://github.com/DanielStoychev/CryptoRecover/blob/main/docs/TUTORIAL.md#btcrecover-tutorial)**.
+To try recovering your password or a BIP39 passphrase, please start with the **[Password Recovery Quick Start](https://github.com/DanielStoychev/CryptoRecover/blob/master/docs/TUTORIAL.md#btcrecover-tutorial)**.
 
-If you mostly know your recovery seed/mnemonic (12-24 recovery words), but think there may be a mistake in it, please see the **[Seed Recovery Quick Start](https://github.com/DanielStoychev/CryptoRecover/blob/main/docs/Seedrecover_Quick_Start_Guide.md)**.
+If you mostly know your recovery seed/mnemonic (12-24 recovery words), but think there may be a mistake in it, please see the **[Seed Recovery Quick Start](https://github.com/DanielStoychev/CryptoRecover/blob/master/docs/Seedrecover_Quick_Start_Guide.md)**.
 
 ## If this tool was helpful, feel free to send a tip to: ##
 
