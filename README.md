@@ -3,7 +3,7 @@
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)]()
-[![Tests](https://img.shields.io/badge/tests-36%20passing-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/tests-640%20passing-brightgreen.svg)]()
 
 🚀 **The most advanced cryptocurrency wallet recovery tool with groundbreaking Ethereum Layer 2 support**
 
