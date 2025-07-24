@@ -1,6 +1,6 @@
 # Installing BTCRecover #
 
-ThJust download the latest version from <https://github.com/DanielStoychev/CryptoRecover/archive/master.zip> and unzip it to a location of your choice. There's no installation procedure for *btcrecover* itself, however there are additional requirements below depending on your operating system and the wallet type you're trying to recover.re are a few basic steps to installing BTCRecover.
+ThJust download the latest version from <https://github.com/DanielStoychev/CryptoRecover/archive/master.zip> and unzip it to a location of your choice. There's no installation procedure for *btcrecover* itself, however there are additional requirements below depending on your operating system and the wallet type you're trying to recover.ust download the latest version from <https://github.com/DanielStoychev/CryptoRecover/archive/master.zip> and unzip it to a location of your choice. There's no installation procedure for *btcrecover* itself, however there are additional requirements below depending on your operating system and the wallet type you're trying to recover.re are a few basic steps to installing BTCRecover.
 
 1) Download and unzip the BTCRecover script
 

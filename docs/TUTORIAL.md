@@ -273,7 +273,7 @@ For Windows users, it's simply a case of navigating to %localappdata%\Coinomi\Co
 
 For Android users, you will need to have a rooted phone which will allow you to access the .wallet file in the Coinomi. (It should be found in the folder data\data\com.coinomi.wallet\files\wallets) How to get root access on your particular phone is beyond the scope of this document, but be warned that some methods of rooting your phone will involve a factory reset.
 
-If there are mulitiple wallets there and you are not sure which is the correct one, the name of each wallet can be found in clear text at the end of the file. [See the test wallets included with this repository in ./btcrecover/test/test-wallets](https://github.com/3rdIteration/btcrecover/tree/master/btcrecover/test/test-wallets) for an example)
+If there are mulitiple wallets there and you are not sure which is the correct one, the name of each wallet can be found in clear text at the end of the file. [See the test wallets included with this repository in ./btcrecover/test/test-wallets](https://github.com/DanielStoychev/CryptoRecover/tree/master/btcrecover/test/test-wallets) for an example)
 
 ### Finding imToken Wallet Files ###
 For Android users, you will need to have a rooted phone which will allow you to access the files.

@@ -13,7 +13,7 @@ The wordlist files themselves were copied verbatim from the sources above, inclu
 
 *seedrecover.py* attempts to guess the correct language of the mnemonic it is trying to recover, however it may not always guess correctly (in particular when it comes to Chinese). You can instruct *seedrecover.py* to use a specific language via the `--language LANG-CODE` option.
 
-The available `LANG-CODE`s (based on ISO 639-1) are taken from the filenames [in the folder here](https://github.com/3rdIteration/btcrecover/tree/master/btcrecover/wordlists); they follow the first `-` in their filenames. Specifically, in alphabetical order they are:
+The available `LANG-CODE`s (based on ISO 639-1) are taken from the filenames [in the folder here](https://github.com/DanielStoychev/CryptoRecover/tree/master/btcrecover/wordlists); they follow the first `-` in their filenames. Specifically, in alphabetical order they are:
 
  * Chinese, simplified - `zh-hans`
  * Chinese, traditional (BIP-39 only) - `zh-hant`

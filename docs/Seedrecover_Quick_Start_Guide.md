@@ -22,7 +22,7 @@ To start *seedrecover.py* on OS X, first rename the `seedrecover.py` script file
 
  1. First you'll be asked to open your wallet file. If you have an Electrum wallet file, find it now - the rest of the steps will then be skipped. Otherwise, click `Cancel` to continue.
 
- 2. Next, select your wallet type. If you're unsure of what to choose, feel free to open an [issue on GitHub](https://github.com/3rdIteration/btcrecover/issues/new) to see if your wallet software is supported. 
+ 2. Next, select your wallet type. If you're unsure of what to choose, feel free to open an [issue on GitHub](https://github.com/DanielStoychev/CryptoRecover/issues/new) to see if your wallet software is supported. 
 
  3. Next you'll be asked for your master public key. If you don't have yours stored anywhere, click `Cancel` to continue.
 
