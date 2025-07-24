@@ -1,4 +1,4 @@
-# Installing BTCRecover #
+# Installing CryptoRecover #
 
 ## 1) DJust download the latest version from <https://github.com/DanielStoychev/CryptoRecover/archive/master.zip> and unzip it to a location of your choice. There's no installation procedure for *btcrecover* itself, however there are additional requirements below depending on your operating system and the wallet type you're trying to recover.wnloading *btcrecover* ##
 
@@ -7,7 +7,7 @@ Just download the latest version from <https://github.com/DanielStoychev/CryptoR
 
 ## 2) Install Python ## download the latest version from <https://github.com/DanielStoychev/CryptoRecover/archive/master.zip> and unzip it to a location of your choice. There's no installation procedure for *btcrecover* itself, however there are additional requirements below depending on your operating system and the wallet type you're trying to recover.ust download the latest version from <https://github.com/DanielStoychev/CryptoRecover/archive/master.zip> and unzip it to a location of your choice. There's no installation procedure for *btcrecover* itself, however there are additional requirements below depending on your operating system and the wallet type you're trying to recover.ust download the latest version from <https://github.com/DanielStoychev/CryptoRecover/archive/master.zip> and unzip it to a location of your choice. There's no installation procedure for *btcrecover* itself, however there are additional requirements below depending on your operating system and the wallet type you're trying to recover.re are a few basic steps to installing BTCRecover.
 
-1) Download and unzip the BTCRecover script
+1) Download and unzip the CryptoRecover script
 
 2) Download and install Python3
 
@@ -37,10 +37,10 @@ Just download the latest version from <https://github.com/DanielStoychev/CryptoR
 
 ## 2) Install Python ##
 
-**Note:** Only Python 3.8 and later are officially supported... BTCRecover is automatically tested with all supported Python versions (3.8, 3.9, 3.10, 3.11) on all supported environments (Windows, Linux, Mac), so you can be sure that both BTCRecover and all required packages will work correctly. Some features of BTCRecover may work on earlier versions of Python, your best bet is to use run-all-tests.py to see what works and what doesn't...
+**Note:** Only Python 3.8 and later are officially supported... CryptoRecover is automatically tested with all supported Python versions (3.8, 3.9, 3.10, 3.11) on all supported environments (Windows, Linux, Mac), so you can be sure that both CryptoRecover and all required packages will work correctly. Some features of CryptoRecover may work on earlier versions of Python, your best bet is to use run-all-tests.py to see what works and what doesn't...
 
 ### Windows ###
-Video Demo of Installing BTCRecover in Windows: <https://youtu.be/8q65eqpf4gE>
+Video Demo of Installing CryptoRecover in Windows: <https://youtu.be/8q65eqpf4gE>
 
 Visit the Python download page here: <https://www.python.org/downloads/windows/>, and click the link for the latest **Python 3.10** release (Python 3.11, etc, will work, but Python 3.10 has simpler installation of required modules) release near the top of the page under the heading *Python Releases for Windows*. Download and run either the `Windows x86 MSI installer` for the 32-bit version of Python, or the `Windows x86-64 MSI installer` for the 64-bit one. Modern PCs should use the 64-bit version, however if you're unsure which one is compatible with your PC, choose the 32-bit one.
 
@@ -49,7 +49,7 @@ _**When installing Python in Windows, be sure to select to "Add Python to PATH" 
 **Note for Large Multi-CPU Systems:** Windows limits the number of possible threads to 64. If your system has more logical/physical cores than this, your best bet is to run the tool in Linux. (Ubuntu is an easy place to start)
 
 ### Linux ###
-Video Demo of Installing BTCRecover in Ubuntu Live USB: <https://youtu.be/Met3NbxcZTU>
+Video Demo of Installing CryptoRecover in Ubuntu Live USB: <https://youtu.be/Met3NbxcZTU>
 
 Most modern distributions include Python 3 pre-installed. Older Linux distributions will include Python2, so you will need to install python3.
 
@@ -68,7 +68,7 @@ You can then re-run the command to install python3-pip from above.
 #### Enabling Native RIPEMD160 Support
 As of OpenSSL v3 (Late 2021), ripemd160 is no longer enabled by default and is now part of the "Legacy" set of hash functions. In Linux/MacOS environments, the hashlib module in Python relies on OpenSSL for ripemd160, so if you want full performance in these environments, you may need modify your OpenSSL settings to enable the legacy provider.
 
-As of July 2022, BTCRecover does include a "pure Python" implementation of RIPEMD160, but this only offers about 1/3 of the performance when compared to a native implementation via hashlib.
+As of July 2022, CryptoRecover does include a "pure Python" implementation of RIPEMD160, but this only offers about 1/3 of the performance when compared to a native implementation via hashlib.
 
 Video Demo of this applying fix can be found here: <https://youtu.be/S3DWKp0i4i0>
 
@@ -78,7 +78,7 @@ For more information, see the relevant issue on the OpenSSL Github repository: <
 
 ### MacOS ###
 
-Video Demo of Installing BTCRecover in MacOS: <https://youtu.be/Qzc3oHzbcAo>
+Video Demo of Installing CryptoRecover in MacOS: <https://youtu.be/Qzc3oHzbcAo>
 
 1) [Install brew via instructions at brew.sh](https://brew.sh)
    
@@ -102,10 +102,10 @@ The Install command is:
 
 ## 3) Install requirements via Python Pip ##
 
-Once both Python3 and PIP have been installed, you can install the requirements for BTCRecover.
+Once both Python3 and PIP have been installed, you can install the requirements for CryptoRecover.
 
 ### Essential Requirements
-You will first want to install the basic packages required for BTCRecover with the command:
+You will first want to install the basic packages required for CryptoRecover with the command:
 
 `pip3 install -r requirements.txt`
 
@@ -113,7 +113,7 @@ This will give you the functionality needed recovery of Bitcoin/Ethereum wallets
 
 If when run this command, you get an error message similar to **error: externally-managed-environment** then you need to add an additional argument `--break-system-packages` to the above command. (So the command will be `pip3 install -r requirements.txt --break-system-packages`) 
 
-Note: If you use Python for other things beyond BTCRecover, then the `--break-system-packages` could cause other issues, but in such situations, managing your python virtual environments for your specific system is beyond the scope of this documentation.
+Note: If you use Python for other things beyond CryptoRecover, then the `--break-system-packages` could cause other issues, but in such situations, managing your python virtual environments for your specific system is beyond the scope of this documentation.
 
 If you are running Python 3.13 and get a build error you may also need to set the following environment variable.
 
@@ -135,11 +135,11 @@ For more information and instructions, [see the GPU acceleration page here](./GP
 
 ## 5) Testing your Installation ##
 
-Once you have downloaded and unzipped BTCRecover, installed Python and all required libraries, you can test the program with the command:
+Once you have downloaded and unzipped CryptoRecover, installed Python and all required libraries, you can test the program with the command:
 
 `python run-all-tests.py -vv`
 
-This command will take a few minutes to run and should complete without errors, indicating that your system is ready to use all features of BTCRecover.
+This command will take a few minutes to run and should complete without errors, indicating that your system is ready to use all features of CryptoRecover.
 
 ## Wallet Python Package Requirements ##
 

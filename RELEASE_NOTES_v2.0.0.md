@@ -1,4 +1,4 @@
-# BTCRecover 2.0.0-Stoychev Release Notes
+# CryptoRecover 2.0.0-Stoychev Release Notes
 
 🚀 **The most advanced cryptocurrency wallet recovery tool with groundbreaking Ethereum Layer 2 support**
 
@@ -92,7 +92,7 @@ Comprehensive documentation available in the [docs/](https://github.com/DanielSt
 
 ## 🙏 Support the Project
 
-If BTCRecover helped you recover your cryptocurrency, consider supporting continued development:
+If CryptoRecover helped you recover your cryptocurrency, consider supporting continued development:
 
 **BTC**: `13SYFeMYK7HSrYZTC4XjNuPmfxBML3FkzR`  
 **ETH**: `0x85Ec64946a72E1b4616B08A523fe5C9F31460cC1`  

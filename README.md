@@ -1,4 +1,4 @@
-# BTCRecover 2.0.0-Stoychev - Enhanced Cryptocurrency Recovery Tool
+# CryptoRecover 2.0.0-Stoychev - Enhanced Cryptocurrency Recovery Tool
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -7,7 +7,7 @@
 
 🚀 **The most advanced cryptocurrency wallet recovery tool with groundbreaking Ethereum Layer 2 support**
 
-*BTCRecover 2.0.0-Stoychev* is an enhanced open source wallet password and seed recovery tool with revolutionary multi-chain capabilities.
+*CryptoRecover 2.0.0-Stoychev* is an enhanced open source wallet password and seed recovery tool with revolutionary multi-chain capabilities.
 
 For seed based recovery, this is primarily useful in situations where you have lost/forgotten parts of your mnemonic, or have made an error transcribing it. (So you are either seeing an empty wallet or getting an error that your seed is invalid)
 
@@ -20,7 +20,7 @@ For wallet password or passphrase recovery, it is primarily useful if you have a
 
 For help and support, please check the comprehensive documentation and examples in the GitHub repository.
 
-## 🆕 **What's New in BTCRecover 2.0.0-Stoychev** ##
+## 🆕 **What's New in CryptoRecover 2.0.0-Stoychev** ##
 
 ### 🔥 **Industry-First Ethereum Layer 2 Support:**
 * **Arbitrum** - Complete wallet recovery for Arbitrum One
@@ -146,7 +146,7 @@ For help and support, please check the comprehensive documentation and examples 
  * “Offline” mode for nearly all supported wallets - use one of the [extract scripts (click for more information)](docs/Extract_Scripts.md) to extract just enough information to attempt password recovery, without giving *btcrecover* or whoever runs it access to *any* of the addresses or private keys in your Bitcoin wallet.
 
 ## Setup and Usage Tutorials ##
-BTCRecover 2.0.0-Stoychev is a Python (3.9, 3.10, 3.11, 3.12) script so will run on Windows, Linux and Mac environments. [See the installation guide for more info](https://github.com/DanielStoychev/CryptoRecover/blob/master/docs/INSTALL.md)
+CryptoRecover 2.0.0-Stoychev is a Python (3.9, 3.10, 3.11, 3.12) script so will run on Windows, Linux and Mac environments. [See the installation guide for more info](https://github.com/DanielStoychev/CryptoRecover/blob/master/docs/INSTALL.md)
 
 This repository includes comprehensive documentation with example commands and file templates in the [./docs/](https://github.com/DanielStoychev/CryptoRecover/tree/master/docs) folder.
 
@@ -177,7 +177,7 @@ If you mostly know your recovery seed/mnemonic (12-24 recovery words), but think
 **ZEN**: znUQLSwhsuxxsYNGtmQttBtmKH1xUHsZKd6
 
 ## Thanks to Original BTCRecover Authors ##
-This tool builds on the excellent work of **Gurnec** who created the original BTCRecover and maintained it until late 2017, and **3rdIteration** who continued development and maintenance. BTCRecover 2.0.0-Stoychev extends their foundational work with modern enhancements including industry-first Ethereum Layer 2 support.
+This tool builds on the excellent work of **Gurnec** who created the original BTCRecover and maintained it until late 2017, and **3rdIteration** who continued development and maintenance. CryptoRecover 2.0.0-Stoychev extends their foundational work with modern enhancements including industry-first Ethereum Layer 2 support.
 
 **Original BTCRecover License**: GNU General Public License v2.0  
 **This Enhanced Version**: Licensed under the same GPL v2.0 terms

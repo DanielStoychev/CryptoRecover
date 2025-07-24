@@ -1,6 +1,6 @@
-# Contributing to BTCRecover 2.0.0-Stoychev
+# Contributing to CryptoRecover 2.0.0-Stoychev
 
-Thank you for your interest in contributing to BTCRecover 2.0.0-Stoychev! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to CryptoRecover 2.0.0-Stoychev! This document provides guidelines and information for contributors.
 
 **Repository**: https://github.com/DanielStoychev/CryptoRecover  
 **Original Project**: Based on BTCRecover by 3rdIteration  
@@ -8,7 +8,7 @@ Thank you for your interest in contributing to BTCRecover 2.0.0-Stoychev! This d
 
 ## 🎯 **Project Goals**
 
-BTCRecover 2.0.0-Stoychev aims to be:
+CryptoRecover 2.0.0-Stoychev aims to be:
 - The most comprehensive cryptocurrency wallet recovery tool
 - Secure and privacy-focused (100% offline operation)
 - Modern, well-tested, and maintainable
@@ -265,7 +265,7 @@ tests/
 2. **Provide system information**
    - Operating system and version
    - Python version
-   - BTCRecover version
+   - CryptoRecover version
    - Dependencies versions
 
 3. **Include reproduction steps**
@@ -365,7 +365,7 @@ By contributing, you agree that:
 
 ---
 
-Thank you for contributing to BTCRecover 2.0.0-Stoychev! Your contributions help make cryptocurrency recovery more accessible and reliable for everyone. 🚀
+Thank you for contributing to CryptoRecover 2.0.0-Stoychev! Your contributions help make cryptocurrency recovery more accessible and reliable for everyone. 🚀
 
 ---
 

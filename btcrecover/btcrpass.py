@@ -6937,7 +6937,7 @@ def parse_arguments(effective_argv, wallet = None, base_iterator = None,
         print("* * * * * * * * * * * * * * * * * * * *")
         print()
         print(
-            "Most crypto wallet software and hardware wallets go to great lengths to protect your wallet password, seed phrase and private keys. BTCRecover isn't designed to offer this level of security, so it is possible that malware on your PC could gain access to this sensitive information while it is stored in memory in the use of this tool...")
+            "Most crypto wallet software and hardware wallets go to great lengths to protect your wallet password, seed phrase and private keys. CryptoRecover isn't designed to offer this level of security, so it is possible that malware on your PC could gain access to this sensitive information while it is stored in memory in the use of this tool...")
         print()
         print(
             "As a precaution, you should run this tool in a secure, offline environment and not simply use your normal, internet connected desktop environment... At the very least, you should disconnect your PC from the network and only reconnect it after moving your funds to a new seed... (Or if you run the tool on your internet conencted PC, move it to a new seed as soon as practical)")

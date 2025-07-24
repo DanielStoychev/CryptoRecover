@@ -40,7 +40,7 @@ def show_l2_capabilities():
     """Show the L2 capabilities of BTCRecover 2.0.0-Stoychev"""
     
     print("=" * 70)
-    print("BTCRecover 2.0.0-Stoychev - Ethereum Layer 2 (L2) Support")
+    print("CryptoRecover 2.0.0-Stoychev - Ethereum Layer 2 (L2) Support")
     print("=" * 70)
     print()
     

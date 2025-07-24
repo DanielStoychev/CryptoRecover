@@ -1,6 +1,6 @@
 # Ethereum Layer 2 (L2) Recovery Support
 
-BTCRecover 2.0.0-Stoychev introduces comprehensive support for recovering wallets on **Ethereum Layer 2 (L2) networks**. This feature allows you to recover your funds on popular L2 scaling solutions using the same mnemonic phrases that work on Ethereum mainnet.
+CryptoRecover 2.0.0-Stoychev introduces comprehensive support for recovering wallets on **Ethereum Layer 2 (L2) networks**. This feature allows you to recover your funds on popular L2 scaling solutions using the same mnemonic phrases that work on Ethereum mainnet.
 
 ## Supported L2 Networks
 

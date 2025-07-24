@@ -47,7 +47,7 @@ if __name__ == "__main__":
             print("Original BTCRecover by Christopher Gurnee (2014-2017):")
             print("BTC: 3Au8ZodNHPei7MQiSVAWb7NB2yqsb48GW4")
             print()
-            print("Enhanced by 3rdIteration team (2019-2021) and BTCRecover 2.0.0-Stoychev (2025)")
+            print("Enhanced by 3rdIteration team (2019-2021) and CryptoRecover 2.0.0-Stoychev (2025)")
             print("Project: https://github.com/DanielStoychev/CryptoRecover")
 
             print()

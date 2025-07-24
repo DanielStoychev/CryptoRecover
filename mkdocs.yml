@@ -1,6 +1,6 @@
-site_name: BTCRecover
+site_name: CryptoRecover
 site_url: https://btcrecover.readthedocs.io
-site_description: Documentation for BTCRecover
+site_description: Documentation for CryptoRecover
 site_author: Stephen Rothery
 repo_url: https://github.com/DanielStoychev/CryptoRecover
 edit_uri: ""
@@ -25,7 +25,7 @@ markdown_extensions:
 nav:
     - Home: index.md
     - Installation & Testing:
-        - Installing BTCRecover: INSTALL.md
+        - Installing CryptoRecover: INSTALL.md
         - GPU Acceleration: GPU_Acceleration.md
         - Resource Usage and Security Notes: Limitations_and_Caveats.md
         - Viewing this documentation offline: local_mkdocs.md

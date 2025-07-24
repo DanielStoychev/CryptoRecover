@@ -1,4 +1,4 @@
-# BTCRecover 2.0.0-Stoychev - Enhanced Cryptocurrency Recovery Tool
+# CryptoRecover 2.0.0-Stoychev - Enhanced Cryptocurrency Recovery Tool
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -7,18 +7,18 @@
 
 🚀 **The most advanced cryptocurrency wallet recovery tool with groundbreaking Ethereum Layer 2 support**
 
-*BTCRecover 2.0.0-Stoychev* is an enhanced open source wallet password and seed recovery tool with revolutionary multi-chain capabilities.
+*CryptoRecover 2.0.0-Stoychev* is an enhanced open source wallet password and seed recovery tool with revolutionary multi-chain capabilities.
 
 For seed based recovery, this is primarily useful in situations where you have lost/forgotten parts of your mnemonic, or have made an error transcribing it. (So you are either seeing an empty wallet or getting an error that your seed is invalid)
 
 For wallet password or passphrase recovery, it is primarily useful if you have a reasonable idea about what your password might be.
 
 ## Getting Started
-Your best bet is to follow the [Installing BTCRecover guide](INSTALL.md), then read the "Quick Start" for the recovery type you want. [(Or look at some usage examples)](UsageExamples.md)
+Your best bet is to follow the [Installing CryptoRecover guide](INSTALL.md), then read the "Quick Start" for the recovery type you want. [(Or look at some usage examples)](UsageExamples.md)
 
 ## Getting Support
 
-If you need help, [your best bet is to look at my BTCRecover playlist on YouTube](https://www.youtube.com/playlist?list=PL7rfJxwogDzmd1IanPrmlTg3ewAIq-BZJ) and ask a question in the comments section for any of video closest to your situation.
+If you need help, [your best bet is to look at my CryptoRecover playlist on YouTube](https://www.youtube.com/playlist?list=PL7rfJxwogDzmd1IanPrmlTg3ewAIq-BZJ) and ask a question in the comments section for any of video closest to your situation.
 
 If you have found a bug, please open an issue on Github here: [https://github.com/DanielStoychev/CryptoRecover/issues](https://github.com/DanielStoychev/CryptoRecover/issues)
 
