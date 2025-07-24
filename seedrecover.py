@@ -48,7 +48,7 @@ if __name__ == "__main__":
             print("BTC: 3Au8ZodNHPei7MQiSVAWb7NB2yqsb48GW4")
             print()
             print("Enhanced by 3rdIteration team (2019-2021):")
-            print("Project: https://github.com/3rdIteration/btcrecover")
+            print("Project: https://github.com/DanielStoychev/CryptoRecover")
 
             print()
             print("Additional support for various cryptocurrencies:")

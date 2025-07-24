@@ -208,7 +208,7 @@ __kernel void hmac_main(__global inbuf *inbuffer, __global const saltbuf *saltbu
 // A modified version of the pbkdf2 kernel that allows you to use these kernels in a situation where you have a password
 // and are attempting to brute-force the salt. (So this kernel takes a single password and an array of salts
 //
-// Originally created for BTCRecover by Stephen Rothery, available at https://github.com/3rdIteration/btcrecover
+// Originally created for BTCRecover by Stephen Rothery, available at https://github.com/DanielStoychev/CryptoRecover
 //    MIT License
 
 __kernel void pbkdf2_saltlist(__global const pwdbuf *pwdbuffer_arg, __global inbuf *inbuffer, __global outbuf *outbuffer,

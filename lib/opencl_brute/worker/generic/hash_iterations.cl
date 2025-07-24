@@ -5,7 +5,7 @@
 // hash happening in the calling application. This means that the input and output will always be the same size and that
 // we don't need to worry about padding, etc...
 //
-// Originally created for BTCRecover by Stephen Rothery, available at https://github.com/3rdIteration/btcrecover
+// Originally created for BTCRecover by Stephen Rothery, available at https://github.com/DanielStoychev/CryptoRecover
 //    MIT License
 
 __kernel void hash_iterations(__global inbuf *inbuffer, __global outbuf *outbuffer, __private unsigned int iters, __private unsigned int hash_size)

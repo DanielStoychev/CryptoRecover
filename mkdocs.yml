@@ -2,7 +2,7 @@ site_name: BTCRecover
 site_url: https://btcrecover.readthedocs.io
 site_description: Documentation for BTCRecover
 site_author: Stephen Rothery
-repo_url: https://github.com/3rdIteration/btcrecover
+repo_url: https://github.com/DanielStoychev/CryptoRecover
 edit_uri: ""
 copyright: 3rdIteration/btcrecover is licensed under the GNU General Public License v2.0 - 2021 Stephen Rothery
 

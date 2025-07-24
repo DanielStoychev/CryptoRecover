@@ -2240,7 +2240,7 @@ class WalletBlockchain(object):
         "\n"
         "Note: The markers ==> and <== are not part of either your password or the decrypted block...\n\n"
         "If the password works and was not correctly found, or your wallet detects a false positive, please report the decrypted block data at "
-        "https://github.com/3rdIteration/btcrecover/issues/\n\n")
+        "https://github.com/DanielStoychev/CryptoRecover/issues/\n\n")
         print("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
         print("*                     Note for Blockchain.com Wallets...                *")
         print("*                                                                       *")
@@ -2256,7 +2256,7 @@ class WalletBlockchain(object):
     # Also check to see if the first block starts with 'address_book'
     # first as was apparently the case with some wallets created around Jan 2014
     # (see https://github.com/gurnec/btcrecover/issues/ that start with "double_encryption"
-    # as per this issue here: https://github.com/3rdIteration/btcrecover/issues/96
+    # as per this issue here: https://github.com/DanielStoychev/CryptoRecover/issues/96
     def check_blockchain_decrypted_block(self, unencrypted_block, password):
         # Return True if
         if re.search(self.matchStrings, unencrypted_block):
@@ -2978,7 +2978,7 @@ class WalletDogechain(object):
                 "\n"
                 "Note: The markers ==> and <== are not part of either your password or the decrypted block...\n\n"
                 "If the password works and was not correctly found, or your wallet detects a false positive, please report the decrypted block data at "
-                "https://github.com/3rdIteration/btcrecover/issues/\n\n")
+                "https://github.com/DanielStoychev/CryptoRecover/issues/\n\n")
         print("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
         print("*                     Note for dogechain.info Wallets...                *")
         print("*                                                                       *")
@@ -3275,7 +3275,7 @@ class WalletMetamask(object):
         "Possible Password ==>BTCR-test-passw0rd<== in Decrypted Block ==>{\"version\":\"v2\",<==\n"
         "Note: The markers ==> and <== are not part of either your password or the decrypted block...\n\n"
         "If the password works and was not correctly found, or your wallet detects a false positive, please report the decrypted block data at "
-        "https://github.com/3rdIteration/btcrecover/issues/\n\n")
+        "https://github.com/DanielStoychev/CryptoRecover/issues/\n\n")
         print("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
         print("*               Note for Metamask (And related) Wallets...              *")
         print("*                                                                       *")
